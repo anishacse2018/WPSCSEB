@@ -1,0 +1,39 @@
+img{
+    width:90px;
+    height:90px;
+    float:left;
+    background-color: cyan;
+}
+ul li{
+    list-style-type: None;
+    display:inline;
+    background-color: rgb(51, 255, 0);
+    
+}
+ul{
+    padding-left: 0px;
+    padding-inline-start: 0%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+.c{
+    background-color:pink;
+}
+#pr{
+    width:200px;
+    height:200px;
+    border-color:black;
+    border-style: solid;
+    
+}
+#bck{
+    background-color: pink;
+    
+}
+#i{
+    text-align: center;
+}
