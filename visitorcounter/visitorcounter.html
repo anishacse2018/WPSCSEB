@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+	<title>VisitorCounter</title>
+	</head>
+<body>
+<h1>VISITOR COUNTER</h1>
+<br>
+<b><p>This page was viewed</p></b>
+<h1 id="count">0</h1>
+<b><p>times</p></b>
+<center> 
+        <h3>Public IP Address of user is:</h3> 
+       <b><p id="print">49.37.142.75</p></b>
+    </center> 
+    <br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+<script>
+	$.getJSON("https://api.ipify.org?format=json", 
+  function(data) { 
+  
+            $("#print").html(data.ip); 
+        })
+	</script>
+	<script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/hit/anishacse2018/codegeeks/?amount=0')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+ 
+</script>
+</body>
+</html>
