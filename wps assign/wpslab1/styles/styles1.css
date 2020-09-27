@@ -1,0 +1,50 @@
+img{
+    width:90px;
+    height:90px;
+    float:left;
+    
+}
+ul li{
+    list-style-type: None;
+    display:inline;
+    background-color: rgb(51, 255, 0);
+    
+}
+ul{
+    padding-left: 0px;
+    padding-inline-start: 0%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+.c{
+    background-color:pink;
+}
+#pr{
+    width:200px;
+    height:200px;
+    padding-right:10px;
+    border-color: black;
+    border-style: solid;
+
+}
+#bck{
+
+    background-color: pink;
+    width: 100%;
+    height:150px;
+    position: absolute;
+    bottom: 0px; 
+    
+}
+#bckup{
+    background-color: pink;
+    width: 100%;
+    height:150px;
+}
+#i{
+    text-align: center;
+}
